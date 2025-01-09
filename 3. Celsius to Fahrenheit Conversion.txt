@@ -15,7 +15,7 @@ public class CelsiusToFahrenheit {
         // Print the result
         System.out.println("The temperature in Fahrenheit is: " + fahrenheit);
 
-        // Close the Scanner
+        // Close the Scanner as it is good practice and avoids the wastage of resource
         scanner.close();
     }
 }
